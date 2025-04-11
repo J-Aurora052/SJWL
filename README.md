@@ -18,14 +18,13 @@
 ├── test.py # 测试
 ├── search_params.py # 超参数搜索工具
 ├── visualize_weights.py # 权重可视化工具
-├── temp.pkl # 训练临时缓存文件
 ```
 
 # 流程
 
 ## 数据准备
 1. 下载 [CIFAR-10 python 版本数据集](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz)
-2. 解压到项目根目录的 `cifar-10-batches-py` 文件夹
+2. 解压到同代码文件夹，命名为cifar-10-batches-py
 
 ## 使用默认参数训练
 python train.py \
